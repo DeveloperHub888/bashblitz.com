@@ -20,7 +20,7 @@ function PublicRelation() {
         <meta name="author" content="BashBlitz" />
         <meta property="og:title" content="Organizza Eventi e Genera QR Code per Feste Esclusive | BashBlitz" />
         <meta property="og:description" content="Crea eventi esclusivi con QR code per ingressi rapidi e senza code. Perfetto per chi ama organizzare feste sicure e indimenticabili." />
-        <meta property="og:image" content={img} />
+        <meta property="og:image" content="https://bashblitz.com/preview.jpg" />
         <meta property="og:url" content="https://bashblitz.com/public-relation/" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://bashblitz.com/public-relation/" />
