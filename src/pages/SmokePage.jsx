@@ -43,7 +43,7 @@ function SmokePage() {
         />
         <meta
           property="og:image"
-          content={img}
+          content="https://bashblitz.com/preview.jpg"
         />
         <meta property="og:url" content="https://bashblitz.com/" />
         <meta property="og:type" content="website" />
