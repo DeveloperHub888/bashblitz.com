@@ -8,8 +8,6 @@ import logo from '../assets/logo/logo-transp.png'
 import logo1 from '../assets/logo/logo-transp-full.png'
 import Navbar from '../components/Navbar';
 import AnimatedTextWord from '../components/AnimatedTextWord';
-import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 
 function SmokePage() {
 
@@ -22,54 +20,6 @@ function SmokePage() {
 
   return (
     <div className='h-dvh'>
-      <Helmet>
-        <title>BashBlitz - La Piattaforma Perfetta per Eventi e PR</title>
-        <meta
-          name="description"
-          content="Organizza eventi straordinari con QR code personalizzati. Gestisci ingressi, evita code e crea nuove connessioni con la nostra app innovativa!"
-        />
-        <meta
-          name="keywords"
-          content="gestione eventi, app eventi, QR code, feste, PR, networking, ingressi esclusivi"
-        />
-        <meta name="author" content="BashBlitz" />
-        <meta
-          property="og:title"
-          content="BashBlitz - La Piattaforma Perfetta per Eventi e PR"
-        />
-        <meta
-          property="og:description"
-          content="Crea eventi epici, invita amici e gestisci ingressi in modo sicuro e veloce. BashBlitz è il tuo strumento per feste indimenticabili!"
-        />
-        <meta
-          property="og:image"
-          content="https://bashblitz.com/preview.jpg"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta
-          property="og:image:alt"
-          content="BashBlitz - La Piattaforma Perfetta per Eventi e PR"
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="BashBlitz - La Piattaforma Perfetta per Eventi e PR"
-        />
-        <meta
-          name="twitter:description"
-          content="Scopri come creare eventi unici e sicuri con QR code personalizzati per ingressi rapidi e senza code. Ideale per giovani e amanti delle feste."
-        />
-        <meta name="twitter:image" content="https://bashblitz.com/preview.jpg" />
-
-        <meta property="og:url" content="https://bashblitz.com/" />
-        <meta property="og:site_name" content="BashBlitz" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="it_IT" />
-        <link rel="canonical" href="https://bashblitz.com/" />
-      </Helmet>
       <Navbar/>
         <div className='relative z-20 h-dvh overflow-hidden'>
           <Smoke />

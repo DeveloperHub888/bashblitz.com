@@ -13,18 +13,6 @@ function EventManager() {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-            <Helmet>
-                <title>Gestione Eventi Semplice e Veloce con QR Code | BashBlitz</title>
-                <meta name="description" content="Gestisci i tuoi eventi in modo rapido e sicuro con QR code personalizzati. Evita le code e garantisci ingressi sicuri per feste e concerti." />
-                <meta name="keywords" content="gestione eventi, QR code, organizzazione eventi, ingressi sicuri, feste, concerti, strumenti per eventi" />
-                <meta name="author" content="BashBlitz" />
-                <meta property="og:title" content="Gestione Eventi Semplice e Veloce con QR Code | BashBlitz" />
-                <meta property="og:description" content="Scopri come gestire eventi con facilità utilizzando QR code per ingressi rapidi e senza code. Ideale per feste, concerti e altri eventi." />
-                <meta property="og:image" content="https://bashblitz.com/preview.jpg" />
-                <meta property="og:url" content="https://bashblitz.com/event-manager/" />
-                <meta property="og:type" content="website" />
-                <link rel="canonical" href="https://bashblitz.com/event-manager/" />
-            </Helmet>
 
             <Navbar />
             {/* Conditional rendering based on screen size */}
