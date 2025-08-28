@@ -2,8 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageFollow from '../components/ImageFollow';
 import ImageChangeMobile1 from '../components/ImageChangeMobile1';
-import { Helmet } from 'react-helmet';
-import img from '../assets/staticSection/pexels-luiisrtz-1687318.jpg';
 
 function PublicRelation() {
 

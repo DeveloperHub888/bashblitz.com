@@ -2,8 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageChange from '../components/ImageChange';
 import ImageChangeMobile from '../components/ImageChangeMobile';
-import { Helmet } from 'react-helmet';
-import img from '../assets/staticSection/pexels-edoardo-tommasini-3249760.jpg';
 
 function EventManager() {
     // Function to check if the screen size is desktop (md and above)
