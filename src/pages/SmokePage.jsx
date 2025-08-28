@@ -8,6 +8,7 @@ import logo from '../assets/logo/logo-transp.png'
 import logo1 from '../assets/logo/logo-transp-full.png'
 import Navbar from '../components/Navbar';
 import AnimatedTextWord from '../components/AnimatedTextWord';
+import preview from '../assets/social-preview.jpg';
 
 function SmokePage() {
 
@@ -41,6 +42,7 @@ function SmokePage() {
           </div>
         </div>
         <div id='nextSection'></div>
+        <img src={preview} alt="Preview" className="hidden"/>
         <MinimalSection
         orientation='right' 
         background='bg-black' 
